@@ -1,0 +1,131 @@
+# 24 scenarios: 3 subjects per stratum, each crossed with both prompt variants.
+# Crossing (every subject gets strict AND natural) isolates the prompt-variant
+# effect from subject difficulty -- v1 assigned one variant per subject, which
+# confounded the two. Trimmed from 5 to 3 subjects/stratum to keep the API
+# call budget close to v1 (24 vs 20) despite the 2x variant multiplier.
+# Scoring uses a fixed local embedder (all-MiniLM-L6-v2), independent of LLM provider.
+
+# --- concrete_nature ---
+- id: cn_ocean_strict
+  stratum: concrete_nature
+  subject: ocean
+  prompt_variant: strict
+  notes: Classic nature anchor
+
+- id: cn_ocean_natural
+  stratum: concrete_nature
+  subject: ocean
+  prompt_variant: natural
+
+- id: cn_snow_strict
+  stratum: concrete_nature
+  subject: snow
+  prompt_variant: strict
+
+- id: cn_snow_natural
+  stratum: concrete_nature
+  subject: snow
+  prompt_variant: natural
+
+- id: cn_autumn_strict
+  stratum: concrete_nature
+  subject: autumn leaves
+  prompt_variant: strict
+
+- id: cn_autumn_natural
+  stratum: concrete_nature
+  subject: autumn leaves
+  prompt_variant: natural
+
+# --- concrete_object ---
+- id: co_bicycle_strict
+  stratum: concrete_object
+  subject: bicycle
+  prompt_variant: strict
+
+- id: co_bicycle_natural
+  stratum: concrete_object
+  subject: bicycle
+  prompt_variant: natural
+
+- id: co_coffee_strict
+  stratum: concrete_object
+  subject: coffee cup
+  prompt_variant: strict
+
+- id: co_coffee_natural
+  stratum: concrete_object
+  subject: coffee cup
+  prompt_variant: natural
+
+- id: co_clock_strict
+  stratum: concrete_object
+  subject: clock
+  prompt_variant: strict
+
+- id: co_clock_natural
+  stratum: concrete_object
+  subject: clock
+  prompt_variant: natural
+
+# --- abstract ---
+- id: ab_grief_strict
+  stratum: abstract
+  subject: grief
+  prompt_variant: strict
+
+- id: ab_grief_natural
+  stratum: abstract
+  subject: grief
+  prompt_variant: natural
+
+- id: ab_time_strict
+  stratum: abstract
+  subject: time
+  prompt_variant: strict
+
+- id: ab_time_natural
+  stratum: abstract
+  subject: time
+  prompt_variant: natural
+
+- id: ab_silence_strict
+  stratum: abstract
+  subject: silence
+  prompt_variant: strict
+
+- id: ab_silence_natural
+  stratum: abstract
+  subject: silence
+  prompt_variant: natural
+
+# --- compound ---
+- id: cp_frost_strict
+  stratum: compound
+  subject: morning frost
+  prompt_variant: strict
+
+- id: cp_frost_natural
+  stratum: compound
+  subject: morning frost
+  prompt_variant: natural
+
+- id: cp_traffic_strict
+  stratum: compound
+  subject: city traffic
+  prompt_variant: strict
+
+- id: cp_traffic_natural
+  stratum: compound
+  subject: city traffic
+  prompt_variant: natural
+
+- id: cp_winter_strict
+  stratum: compound
+  subject: winter night
+  prompt_variant: strict
+
+- id: cp_winter_natural
+  stratum: compound
+  subject: winter night
+  prompt_variant: natural

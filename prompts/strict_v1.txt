@@ -1,0 +1,15 @@
+Write a haiku about the subject below.
+
+Requirements:
+- Exactly three lines.
+- English haiku syllable pattern: 5 syllables, then 7, then 5.
+- The subject should be clearly reflected in the imagery or wording.
+
+Subject: {subject}
+
+Respond with JSON only:
+{{
+  "line1": "<first line, 5 syllables>",
+  "line2": "<second line, 7 syllables>",
+  "line3": "<third line, 5 syllables>"
+}}

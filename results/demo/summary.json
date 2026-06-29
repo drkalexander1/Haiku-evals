@@ -1,0 +1,176 @@
+{
+  "source": "legacy_predictions_jsonl",
+  "models": {
+    "gpt-4o-mini-demo": {
+      "n": 24,
+      "syllable_l1_error_mean": 4.833333333333333,
+      "syllable_perfect_rate": 0.0,
+      "line_count_ok_rate": 1.0,
+      "subject_cosine_full_mean": 0.31783690806346304,
+      "subject_cosine_word_sum_mean": 0.5248815238719994,
+      "subject_mentioned_rate": 0.0,
+      "cosine_full_minus_word_sum_mean": -0.2070446158085363
+    },
+    "gpt-4o-demo": {
+      "n": 24,
+      "syllable_l1_error_mean": 2.6666666666666665,
+      "syllable_perfect_rate": 0.0,
+      "line_count_ok_rate": 1.0,
+      "subject_cosine_full_mean": 0.3023850219175932,
+      "subject_cosine_word_sum_mean": 0.5239953008023774,
+      "subject_mentioned_rate": 0.0,
+      "cosine_full_minus_word_sum_mean": -0.22161027888478424
+    }
+  },
+  "by_stratum": {
+    "gpt-4o-mini-demo": {
+      "abstract": {
+        "n": 6,
+        "syllable_l1_error_mean": 6.0,
+        "syllable_perfect_rate": 0.0,
+        "line_count_ok_rate": 1.0,
+        "subject_cosine_full_mean": 0.14437547537670073,
+        "subject_cosine_word_sum_mean": 0.49174148325645,
+        "subject_mentioned_rate": 0.0,
+        "cosine_full_minus_word_sum_mean": -0.3473660078797492
+      },
+      "compound": {
+        "n": 6,
+        "syllable_l1_error_mean": 3.6666666666666665,
+        "syllable_perfect_rate": 0.0,
+        "line_count_ok_rate": 1.0,
+        "subject_cosine_full_mean": 0.3377556377027342,
+        "subject_cosine_word_sum_mean": 0.4763472170930713,
+        "subject_mentioned_rate": 0.0,
+        "cosine_full_minus_word_sum_mean": -0.13859157939033712
+      },
+      "concrete_nature": {
+        "n": 6,
+        "syllable_l1_error_mean": 5.666666666666667,
+        "syllable_perfect_rate": 0.0,
+        "line_count_ok_rate": 1.0,
+        "subject_cosine_full_mean": 0.44216974164141964,
+        "subject_cosine_word_sum_mean": 0.5883312171291277,
+        "subject_mentioned_rate": 0.0,
+        "cosine_full_minus_word_sum_mean": -0.1461614754877081
+      },
+      "concrete_object": {
+        "n": 6,
+        "syllable_l1_error_mean": 4.0,
+        "syllable_perfect_rate": 0.0,
+        "line_count_ok_rate": 1.0,
+        "subject_cosine_full_mean": 0.34704677753299773,
+        "subject_cosine_word_sum_mean": 0.5431061780093485,
+        "subject_mentioned_rate": 0.0,
+        "cosine_full_minus_word_sum_mean": -0.19605940047635073
+      }
+    },
+    "gpt-4o-demo": {
+      "abstract": {
+        "n": 6,
+        "syllable_l1_error_mean": 3.6666666666666665,
+        "syllable_perfect_rate": 0.0,
+        "line_count_ok_rate": 1.0,
+        "subject_cosine_full_mean": 0.12054091854236648,
+        "subject_cosine_word_sum_mean": 0.48331610757849713,
+        "subject_mentioned_rate": 0.0,
+        "cosine_full_minus_word_sum_mean": -0.36277518903613065
+      },
+      "compound": {
+        "n": 6,
+        "syllable_l1_error_mean": 1.6666666666666667,
+        "syllable_perfect_rate": 0.0,
+        "line_count_ok_rate": 1.0,
+        "subject_cosine_full_mean": 0.32250655486540786,
+        "subject_cosine_word_sum_mean": 0.4741818325959639,
+        "subject_mentioned_rate": 0.0,
+        "cosine_full_minus_word_sum_mean": -0.15167527773055609
+      },
+      "concrete_nature": {
+        "n": 6,
+        "syllable_l1_error_mean": 3.3333333333333335,
+        "syllable_perfect_rate": 0.0,
+        "line_count_ok_rate": 1.0,
+        "subject_cosine_full_mean": 0.41125430579466293,
+        "subject_cosine_word_sum_mean": 0.5912579471705034,
+        "subject_mentioned_rate": 0.0,
+        "cosine_full_minus_word_sum_mean": -0.18000364137584043
+      },
+      "concrete_object": {
+        "n": 6,
+        "syllable_l1_error_mean": 2.0,
+        "syllable_perfect_rate": 0.0,
+        "line_count_ok_rate": 1.0,
+        "subject_cosine_full_mean": 0.3552383084679356,
+        "subject_cosine_word_sum_mean": 0.5472253158645454,
+        "subject_mentioned_rate": 0.0,
+        "cosine_full_minus_word_sum_mean": -0.19198700739660976
+      }
+    }
+  },
+  "by_prompt_variant": {
+    "gpt-4o-mini-demo": {
+      "natural": {
+        "n": 12,
+        "syllable_l1_error_mean": 4.833333333333333,
+        "syllable_perfect_rate": 0.0,
+        "line_count_ok_rate": 1.0,
+        "subject_cosine_full_mean": 0.31783690806346304,
+        "subject_cosine_word_sum_mean": 0.5248815238719994,
+        "subject_mentioned_rate": 0.0,
+        "cosine_full_minus_word_sum_mean": -0.2070446158085363
+      },
+      "strict": {
+        "n": 12,
+        "syllable_l1_error_mean": 4.833333333333333,
+        "syllable_perfect_rate": 0.0,
+        "line_count_ok_rate": 1.0,
+        "subject_cosine_full_mean": 0.31783690806346304,
+        "subject_cosine_word_sum_mean": 0.5248815238719994,
+        "subject_mentioned_rate": 0.0,
+        "cosine_full_minus_word_sum_mean": -0.2070446158085363
+      }
+    },
+    "gpt-4o-demo": {
+      "natural": {
+        "n": 12,
+        "syllable_l1_error_mean": 2.6666666666666665,
+        "syllable_perfect_rate": 0.0,
+        "line_count_ok_rate": 1.0,
+        "subject_cosine_full_mean": 0.30238502191759326,
+        "subject_cosine_word_sum_mean": 0.5239953008023776,
+        "subject_mentioned_rate": 0.0,
+        "cosine_full_minus_word_sum_mean": -0.22161027888478427
+      },
+      "strict": {
+        "n": 12,
+        "syllable_l1_error_mean": 2.6666666666666665,
+        "syllable_perfect_rate": 0.0,
+        "line_count_ok_rate": 1.0,
+        "subject_cosine_full_mean": 0.30238502191759326,
+        "subject_cosine_word_sum_mean": 0.5239953008023776,
+        "subject_mentioned_rate": 0.0,
+        "cosine_full_minus_word_sum_mean": -0.22161027888478427
+      }
+    }
+  },
+  "power_analysis": {
+    "method": "Paired t on per-scenario subject_cosine_full differences; alpha=0.05 two-sided, power=0.80. Treats scenarios as exchangeable, which overstates power given shared subjects; with multiple pairs, apply a multiple-comparison correction before claiming significance.",
+    "pairs": [
+      {
+        "model_a": "gpt-4o-demo",
+        "model_b": "gpt-4o-mini-demo",
+        "n_scenarios": 24,
+        "delta_subject_cosine_full": -0.015451886145869858,
+        "sd_of_paired_diffs": 0.031141732760136827,
+        "t_paired": -2.4307726813076287,
+        "scenarios_needed_80pct_power": 31.844806242097874,
+        "min_detectable_delta_at_n": 0.017798982825971674
+      }
+    ]
+  },
+  "embedder": "local",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_label": "local:sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_note": "Local sentence-transformers model; provider-neutral, no API"
+}

@@ -1,0 +1,8 @@
+Write a haiku about: {subject}
+
+Respond with JSON only:
+{{
+  "line1": "<first line>",
+  "line2": "<second line>",
+  "line3": "<third line>"
+}}
