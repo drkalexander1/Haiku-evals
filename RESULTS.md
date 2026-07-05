@@ -1,8 +1,7 @@
 # Results
 
-**Status: closed.** This was an exploratory side-eval, not an ongoing project — the post
-below ships it and moves on. Lukewarm by design: the weekly cadence is the asset here, not
-this particular eval. The interesting result turned out to be about evals, not about haiku.
+**Status: closed.** This was a short exploratory eval, not an ongoing project. The most
+notable result turned out to be about eval methodology rather than haiku quality — see below.
 
 Two runs of the identical 24-scenario crossed design (3 models × 4 strata × 3 subjects × 2
 prompt variants strict/natural), against the same scoring code, from two separate live API
@@ -71,8 +70,9 @@ differences above, it doesn't need a paired t-test to be a stable finding.
 | claude-sonnet-4-6 | 0.21 |
 
 This is not a content-quality metric, and a high rate is not contamination. Literal subject
-mentions are a legitimate haiku move (mic-drop final word, name-then-circle-back structure).
-The only genuinely degenerate pattern this could catch is generic filler that nets ~0
+mentions are a legitimate haiku technique (e.g. naming the subject in the closing line, or
+introducing it early and returning to it structurally). The only genuinely degenerate pattern
+this could catch is generic filler that nets ~0
 semantic grounding, rescued by dropping the subject word in at the end. A high
 `subject_mentioned_rate` flags *which* haikus are worth reading, not a failure mode by
 itself. Read literally: claude-haiku-4-5's similarity scores in this run are entirely from
@@ -90,7 +90,7 @@ oblique reference (zero literal mentions); claude-sonnet-4-6 reaches its (slight
   work" from "filler haiku, subject word bolted on" needs more than reading the mention rate;
   n=24 only supports a case-study read-through, not a measured rate.
 
-## What I'd do with more scenarios (parked, not started)
+## What I'd do with more scenarios (future work, not yet started)
 
 - **Token-ablation as a standing metric**: recompute `subject_cosine_word_sum` with the
   subject token removed from the haiku before embedding. A score that survives removal is
